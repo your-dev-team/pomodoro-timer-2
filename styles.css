@@ -23,6 +23,14 @@ body {
 .btn {
   margin: 5px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .btn-primary {
@@ -30,7 +38,15 @@ body {
   color: white;
 }
 
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
 .btn-secondary {
   background-color: #6c757d;
   color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
 }
